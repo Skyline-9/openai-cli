@@ -33,9 +33,9 @@
 
 | Platform | Architecture | Download |
 |----------|-------------|----------|
-| macOS    | Apple Silicon (arm64) | [openai-darwin-arm64](https://github.com/Skyline-9/openai-cli/releases/download/v0.3.1/openai-darwin-arm64) |
-| Linux    | x86-64 | [openai-linux-amd64](https://github.com/Skyline-9/openai-cli/releases/download/v0.3.1/openai-linux-amd64) |
-| Windows  | x86-64 | [openai-windows-amd64.exe](https://github.com/Skyline-9/openai-cli/releases/download/v0.3.1/openai-windows-amd64.exe) |
+| macOS    | Apple Silicon (arm64) | [openai-darwin-arm64](https://github.com/Skyline-9/openai-cli/releases/download/Release/openai-darwin-arm64) |
+| Linux    | x86-64 | [openai-linux-amd64](https://github.com/Skyline-9/openai-cli/releases/download/Release/openai-linux-amd64) |
+| Windows  | x86-64 | [openai-windows-amd64.exe](https://github.com/Skyline-9/openai-cli/releases/download/Release/openai-windows-amd64.exe) |
 
 ```sh
 # macOS
@@ -162,7 +162,7 @@ openai -v ask -p "test"
 
 ## CI
 
-The project includes a `.gitlab-ci.yml` that runs `cargo fmt --check`, `cargo clippy`, and `cargo test` on every push.
+The project uses a GitHub Actions workflow that runs `cargo fmt --check`, `cargo clippy`, and `cargo test` on every push.
 
 ## License
 
