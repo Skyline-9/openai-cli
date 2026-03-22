@@ -29,6 +29,12 @@
 
 ## Installation
 
+### Homebrew (Recommended for macOS/Linux)
+
+```sh
+brew install Skyline-9/tap/openai-cli
+```
+
 ### Pre-built binary
 
 | Platform | Architecture | Download |
